@@ -1,8 +1,11 @@
+import "./App.scss";
+import Dock from "./components/DockWorks/Dock";
+
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <main>
+      <Dock />
+    </main>
   )
 }
 

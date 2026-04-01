@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://i.pinimg.com/1200x/7c/f6/09/7cf60987d37faba78dec40f10e23c39d.jpg");
+  background-size: cover;
+  background-position: center;
+}/*# sourceMappingURL=App.css.map */
