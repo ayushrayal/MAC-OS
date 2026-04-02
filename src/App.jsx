@@ -1,6 +1,7 @@
 import "./App.scss";
 import Dock from "./components/DockWorks/Dock";
 import Navbar from "./components/Navbar/Navbar";
+import GithubWindow from "./components/windows/githubWindow/GithubWindow";
 import MacWindows from "./components/windows/MacWindows";
 
 const App = () => {
@@ -8,7 +9,7 @@ const App = () => {
     <main>
       <Navbar />
       <Dock />
-      <MacWindows><h1>ayush rayal -ysh</h1></MacWindows>
+      <GithubWindow/>
     </main>
   )
 }

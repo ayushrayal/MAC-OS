@@ -38,4 +38,9 @@
   color: white;
   font-weight: 300;
   font-size: 0.8rem;
+}
+.MacWindows .main-content {
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
 }/*# sourceMappingURL=macwindows.css.map */
