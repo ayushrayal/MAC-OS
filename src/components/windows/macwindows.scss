@@ -1,0 +1,41 @@
+.MacWindows{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    border-radius: 0.2rem;
+    color: white;
+    .nav{
+        height: 15px;
+        width: 100%;
+        border-bottom: 1px solid whitesmoke;
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        .dots{
+            display: flex;
+            gap: 5px;
+            padding-inline: 0.3rem;
+        }
+        .dot{
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+        }
+        .red{
+            background-color: rgb(228, 21, 21);
+        }
+        .yellow{
+            background-color: rgb(255, 255, 0);
+        }
+        .green{
+            background-color: rgb(0, 255, 0);
+        }
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        color: white;
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+}
