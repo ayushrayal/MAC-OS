@@ -1,22 +1,29 @@
+.cards {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
 .card {
   background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
   border: 1px solid #404040;
   border-radius: 0.5rem;
-  padding: 1rem;
-  min-height: 300px;
+  max-width: 25rem;
+  padding-inline: 1rem;
+  padding-block: 0.75rem;
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
   transition: all 0.3s ease;
 }
 .card:hover {
-  border-color: #00d4ff;
-  box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+  border-color: #22ff00;
+  box-shadow: 0 0 20px rgba(0, 255, 110, 0.3);
   transform: translateY(-2px);
 }
 .card img {
   width: 100%;
-  height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 0.4rem;
@@ -32,7 +39,7 @@
   margin: 0;
   word-break: break-word;
 }
-.card p {
+.card .description {
   font-size: 0.85rem;
   color: #b0b0b0;
   margin: 0;
@@ -41,15 +48,19 @@
   display: flex;
   gap: 0.9rem;
 }
-.card p span {
-  background-color: #1a1a1a;
-  color: #ffffff;
-  padding: 0.2rem 0.4rem;
-  border-radius: 0.3rem;
+.card .tags {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: nowrap;
 }
-.card p:last-of-type {
-  font-size: 0.75rem;
-  color: #808080;
+.card .tags span {
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0.3rem 0.6rem;
+  background-color: #333;
+  color: #fff;
+  border-radius: 0.3rem;
+  white-space: nowrap;
 }
 .card .urls {
   display: flex;
@@ -59,7 +70,7 @@
 .card .urls a {
   flex: 1;
   padding: 0.6rem 1rem;
-  background-color: #00d4ff;
+  background-color: #00ff95;
   color: #000;
   text-decoration: none;
   border-radius: 0.3rem;
@@ -67,13 +78,13 @@
   font-weight: 600;
   font-size: 0.85rem;
   transition: all 0.3s ease;
-  border: 2px solid #00d4ff;
+  border: 2px solid #00ff40;
   cursor: pointer;
 }
 .card .urls a:hover {
   background-color: transparent;
-  color: #00d4ff;
-  box-shadow: inset 0 0 10px rgba(0, 212, 255, 0.2);
+  color: #00ff73;
+  box-shadow: inset 0 0 10px rgba(0, 255, 34, 0.2);
 }
 .card .urls a:active {
   transform: scale(0.98);

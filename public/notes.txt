@@ -1,0 +1,116 @@
+/**
+ * @file: ayush.profile.ts
+ * @author: Ayush Rayal
+ * @summary: Building interactive web experiences & creative frontend systems.
+ */
+
+// --------------------------------------------------
+// 1. CORE STACK
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "React.js",
+    "JavaScript",
+    "Tailwind CSS",
+    "SCSS",
+  ],
+  backend: [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+  ],
+  realtime: [
+    "Socket.io",
+    "WebSockets"
+  ],
+  tools: ["Git", "GitHub", "VS Code", "Figma"]
+};
+
+// --------------------------------------------------
+// 2. PROJECT SYSTEMS
+// --------------------------------------------------
+
+class ProjectEngine {
+
+  /** 
+   * @project Honey Token
+   * @type Security System
+   */
+  public HoneyToken() {
+    const purpose = "Detect unauthorized access using trap-based tokens";
+    const system = ["Token Injection", "Access Monitoring", "Alert Trigger"];
+    const stack = ["Node.js", "Express", "MongoDB"];
+
+    return { purpose, system, stack };
+  }
+
+  /**
+   * @project Real Time Tracker
+   * @type Live Tracking System
+   */
+  public RealTimeTracker() {
+    const purpose = "Track user location in real-time with live updates";
+    const system = ["Socket Connection", "Live Coordinates", "Map Sync"];
+    const stack = ["React", "Socket.io", "Node.js"];
+
+    return { purpose, system, stack };
+  }
+
+  /**
+   * @project Carfto
+   * @type E-commerce UI
+   */
+  public Carfto() {
+    const purpose = "Handcrafted product platform with modern UI";
+    const system = ["Product Listing", "UI Components", "Responsive Design"];
+    const stack = ["React", "Tailwind CSS", "Firebase"];
+
+    return { purpose, system, stack };
+  }
+
+  /**
+   * @project Snake Game
+   * @type Game Logic
+   */
+  public SnakeGame() {
+    const purpose = "Classic snake game with smooth controls";
+    const system = ["Game Loop", "Collision Detection", "Score System"];
+    const stack = ["JavaScript", "HTML", "CSS"];
+
+    return { purpose, system, stack };
+  }
+}
+
+// --------------------------------------------------
+// 3. SKILL SIGNALS
+// --------------------------------------------------
+
+const strengths = [
+  "UI/UX Thinking",
+  "Component-Based Architecture",
+  "Real-time Systems",
+  "Creative Frontend Development"
+];
+
+// --------------------------------------------------
+// 4. LEARNING MODE
+// --------------------------------------------------
+
+const currentlyLearning = [
+  "Advanced React Patterns",
+  "Backend Scaling",
+  "System Design Basics"
+];
+
+// --------------------------------------------------
+// 5. STATUS
+// --------------------------------------------------
+
+export const status = {
+  availability: "Open to Freelance & Collaboration",
+  focus: "Building unique portfolio + real-world projects",
+  location: "India"
+};
+
+export default new ProjectEngine();
