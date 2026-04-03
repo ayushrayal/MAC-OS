@@ -25,6 +25,7 @@
   height: 12px;
   width: 12px;
   border-radius: 50%;
+  cursor: pointer;
 }
 .MacWindows .nav .dot.red {
   background-color: #e41515;

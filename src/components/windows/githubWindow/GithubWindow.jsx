@@ -2,9 +2,9 @@ import React from 'react'
 import MacWindows from '../MacWindows'
 import './githubWindow.scss'
 import { projects } from '../../../assets/githubData'
-const GithubWindow = () => {
+const GithubWindow = ({windowName, setWindowState}) => {
   return (
-    <MacWindows>
+    <MacWindows windowName={windowName} setWindowState={setWindowState}>
             <div className="cards">
               {projects.map((elem,idx)=>{
                 return <div key={idx} className="card">
