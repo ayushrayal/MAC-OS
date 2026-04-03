@@ -1,0 +1,8 @@
+.resume-window {
+  height: 100vh;
+  overflow: auto;
+}
+.resume-window embed {
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=resume.css.map */
