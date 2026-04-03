@@ -1,7 +1,8 @@
 /**
  * @file: ayush.profile.ts
  * @author: Ayush Rayal
- * @summary: Building interactive web experiences & creative frontend systems.
+ * @summary: Building interactive web 
+   experiences & creative frontend systems.
  */
 
 // --------------------------------------------------
@@ -114,3 +115,13 @@ export const status = {
 };
 
 export default new ProjectEngine();
+
+
+# TERMINAL OUTPUT
+# ---------------------------------------
+$ ayush --status
+> Status: Building & Learning Daily
+> Projects: Active
+> Mode: Consistent Growth
+> Loading Skills... [||||||||||] 100%
+> Ready.

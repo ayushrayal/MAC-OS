@@ -54,4 +54,12 @@
         overflow: auto;
         padding: 1rem;
     }
+
+    *::-webkit-scrollbar {
+        width: 8px;
+    }
+    *::-webkit-scrollbar-thumb {
+        background-color: #333;
+        border-radius: 4px;
+    }
 }

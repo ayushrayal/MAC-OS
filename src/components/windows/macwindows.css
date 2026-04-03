@@ -48,4 +48,11 @@
   flex: 1;
   overflow: auto;
   padding: 1rem;
+}
+.MacWindows *::-webkit-scrollbar {
+  width: 8px;
+}
+.MacWindows *::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 4px;
 }/*# sourceMappingURL=macwindows.css.map */
