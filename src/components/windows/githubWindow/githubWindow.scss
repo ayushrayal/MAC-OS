@@ -55,7 +55,7 @@
     .tags{
         display: flex;
         gap: 1.5rem;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         span{
             height: fit-content;
             padding: 0.3rem 0.6rem;

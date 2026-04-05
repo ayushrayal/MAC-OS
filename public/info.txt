@@ -25,7 +25,7 @@ const TECH_STACK = {
     "Socket.io",
     "WebSockets"
   ],
-  tools: ["Git", "GitHub", "VS Code", "Figma"]
+  tools: ["Git", "GitHub", "VS Code", "Render", "Vercel]
 };
 
 // --------------------------------------------------
@@ -63,9 +63,9 @@ class ProjectEngine {
    * @type E-commerce UI
    */
   public Carfto() {
-    const purpose = "Handcrafted product platform with modern UI";
+    const purpose = "A minimal visual design tool inspired by Figma, built with HTML, SCSS, and vanilla JavaScript.";
     const system = ["Product Listing", "UI Components", "Responsive Design"];
-    const stack = ["React", "Tailwind CSS", "Firebase"];
+    const stack = ["JavaScript", "HTML", "SCSS"];
 
     return { purpose, system, stack };
   }
