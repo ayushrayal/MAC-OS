@@ -1,6 +1,47 @@
-.cli-window{
-    height: 100%;
-    div[name="react-console-emulator"]{
-        height: 100%;
+.cli-container {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #00ff00;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  padding: 15px;
+  overflow-y: auto;
+  border-radius: 0 0 10px 10px;
+  
+  .terminal-line {
+    white-space: pre-wrap;
+    word-break: break-all;
+    line-height: 1.5;
+    
+    &.input {
+      color: #bbbbbb;
     }
+    
+    &.output {
+      color: #eeeeee;
+      margin-bottom: 5px;
+    }
+  }
+  
+  .terminal-input-line {
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+    
+    .prompt {
+      color: #00ff00;
+      white-space: pre;
+    }
+    
+    input {
+      flex: 1;
+      background: transparent;
+      border: none;
+      color: #fff;
+      font-family: inherit;
+      font-size: inherit;
+      outline: none;
+    }
+  }
 }

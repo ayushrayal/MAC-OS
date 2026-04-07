@@ -1,0 +1,15 @@
+.spotify-window {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #121212; /* Spotify's native background color */
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    flex: 1;
+  }
+}
